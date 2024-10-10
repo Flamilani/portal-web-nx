@@ -16,10 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@estudo-nx/layout": ["modules/feature/layout/src/index.ts"],
-      "@estudo-nx/modules/orders": ["modules/orders/src/index.ts"],
-      "@estudo-nx/modules/products": ["modules/products/src/index.ts"],
       "@estudo-nx/modules/shared/ui": ["modules/shared/ui/src/index.ts"],
-      "@modules/users": ["modules/users/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

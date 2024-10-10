@@ -6,7 +6,7 @@
     "start": "nx serve",
     "build": "nx build",
     "test": "nx test",
-    "test:coverage": "nx test frontend --coverage"
+    "test:coverage": "nx run-many --all --target=test --parallel=3 --ci --code-coverage --coverageReporters=lcov --exclude  modules-products users modules-orders"
   },
   "private": true,
   "dependencies": {
